@@ -1,0 +1,44 @@
+h1{
+    color: green;
+}
+span {
+    color: orange;
+}
+.pav{
+   color: black;
+}
+.miestai{
+ color: orange;
+}
+li span{
+    color: blue;
+}
+.p{
+    text-align: left;
+    color: pink;
+}
+.b{
+    text-align: left;
+    color: blue;
+}
+th{
+    text-align: center;
+    color: black;
+}
+table{
+    border: solid black;
+    border-collapse: separate;
+}
+th{
+    box-shadow:  -5px -5px 7px gray ;
+    border-collapse: separate;
+}
+.gender{
+    border: solid;
+}
+label{
+    color: orangered;
+}
+.xd{
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.p1{
+    border: none;
+    color: red;
+}
+.p2{
+    border: dotted;
+    border-color: black;
+    color: red;
+}
+.p3{
+    border: dashed;
+    border-color: black;
+    color: red;
+}
+.p4{
+    border: solid;
+    border-color: black;
+    color: red;
+}
+.p5{
+    border: double;
+    border-color: black;
+    color: red;
+}
+.p6{
+    border: groove;
+    border-color: black;
+    color: red;
+}
+.p7{
+    border: ridge;
+    border-color: black;
+    color: red;
+}
+.p8{
+    border: inset;
+    border-color: black;
+    color: red;
+}
+.p9{
+    border: outset;
+    border-color: black;
+    color: red;
+}

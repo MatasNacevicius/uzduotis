@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bandymas.css">
+</head>
+
+<body>
+    <h1>About</h1>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<span> Aenean commodo ligula eget dolor.</span> Aenean
+        massa. <br> Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <span> Donec quam felis,
+            ultricies</span>
+        nec, <br> pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+        aliquet nec, <br> <span> vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis</span></p>
+    <h1>Our locations</h1>
+    <ul>
+        <li class="pav">USA</li>
+        <ul class="miestai">
+            <li> <span> <u>New York</u> </span></li>
+            <li> <span> <u> Columbus</u> </span> </li>
+            <li> <span> <u> Austin</u> </span> </li>
+            <li> <span> <u> Phily</u> </span> </li>
+        </ul>
+        <li class="pav">WORLD</li>
+        <ul class="miestai">
+            <li> <span> <u> Ottawa</u> </span> </li>
+            <li> <span> <u> Sydney</u> </span> </li>
+        </ul>
+    </ul>
+    <h1>Upcoming Classes</h1>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <th class="b">New York</th>
+            <th class="p">JavaScipt & jQuery</th>
+        </tr>
+        <tr>
+            <th class="b">San Francisco</th>
+            <th class="p">HTML & CSS</th>
+        </tr>
+
+    </table>
+    <h1>Sign Up!</h1>
+    <form action="/" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="lokacija">Loction</label>
+            <select name="lokacija" id="lokacija">
+            <option value="San Francisco">San Francisco</option>
+            <option value="New York">New York</option>
+            <option value="Austin">Austin</option>
+        </select>
+        </div>
+        <div class="gender">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+        </div>
+        <div>
+            <label for="experience">Experience</label> <br>
+            <textarea name="experience" id="" cols="30" rows="3"></textarea>
+        </div>
+        <div>
+            <button>Sign up</button>
+        </div>
+    </form>
+</body>
+
+</html>

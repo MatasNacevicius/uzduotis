@@ -1,0 +1,24 @@
+img{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px ;
+}
+.fill{
+    object-fit: fill;
+}
+.cover{
+    object-fit: cover;
+}
+.contain{
+    object-fit: contain;
+}
+.none{
+    object-fit: none;
+}
+.scale{
+    object-fit: scale-down;
+}
+.pirmas{
+    background-image: url(https://i.pinimg.com/236x/8b/38/42/8b38421386c7ebc1b070dc0a71d6097c.jpg)
+}
